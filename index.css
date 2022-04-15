@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+  height: 420px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  padding-top: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .img {
+  width: 30%;
+}
+.img img {
+  width: 100%;
+}
+.btn {
+  margin-left: 12px;
+}
+
+#Btn {
+  text-align: center;
+  height: 35px;
+  display: inline-block;
+  padding: 7px 14px 10px 35px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  width: auto;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn img {
+  position: absolute;
+  left: 6px;
+}
+Button {
+  text-align: center;
+  height: 35px;
+  display: inline-block;
+  padding: 7px 14px 6px 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  width: auto;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  border: none;
+  white-space: nowrap;
+}
+
+.navbar-center {
+  width: 50%;
+  position: relative;
+}
+.navbar-center input {
+  width: 80%;
+  padding: 10px;
+  background: hsla(0, 0%, 100%, 0.25);
+  border: 1px solid transparent;
+  padding: 8px 35px 8px 10px;
+  border-radius: 3px;
+  outline: 0 none;
+  opacity: 0.8;
+  min-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #fff;
+}
+
+.navbar-center input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.navbar-right {
+  width: 24%;
+}
+#Btn1 {
+  background: #6432f9;
+  box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+}
+#Btn2 {
+  background: none;
+  color: white;
+  box-shadow: none;
+}
+
+#searchtbn {
+  position: absolute;
+  font-size: 20px;
+  right: 130px;
+  top: 0;
+  /* bottom: 0; */
+  margin: auto;
+  background: transparent;
+  border: 0;
+  outline: 0 none;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.second {
+  width: 80%;
+  margin: auto;
+  margin-top: 76px;
+}
+
+.cardmain {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 12px;
+}
+.card {
+  width: 100%;
+  margin: 10px;
+  color: white;
+  height: 168px;
+  text-align: center;
+  font-size: 14px;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRdvIC_aXFAZhwtDqvW7Y0fzPD59gwGSXs_s8XMlrS2TnzAnyht");
+}
+
+.titlediv {
+  margin-top: 110px;
+  padding: 6px;
+  background: darkorange;
+}
+
+#imageappend {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+}
+
+.imagesDiv {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.imagemain {
+  background-color: #2e3035;
+}
+
+.second p {
+  font-size: 18px;
+  font-family: monospace, serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.ti1 {
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqfv95QGnbBZDQz-01n79da1w7H_c5RmSELpP6Zhu-iPqji2pW");
+}
+.ti2 {
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPA_GAaCkiogRpLhqHa98jPF5sHBbERrsaEaUNXd0O-NCtv5oQ");
+}
+.ti3 {
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSscKwqtFaB-o3dF7qQrdp7CJHKnjoUgENW1tYBjABaKwNr125p");
+}
+.ti4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP3HennLv9WDpWmhpRsRz1mh9aGsqs33C-8U9EAkch_SyqWvEg");
+}
+.ti5 {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4nYCiaLB_AWIjgnMe_Aoer20HMUStTiJhpLNgHU6_6yM5PsmR");
+}
+.ti6 {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRahTSYfvURc3_g2ap_SDiMgDagNSTus464cwvuOvPpPgBCa_H4");
+}
+.ti7 {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrg0LfFx2R-Qr_tHcyEo9RRki4rUc1Ij6BlOZEjGl4HUPPmwgy");
+}
